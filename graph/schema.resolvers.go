@@ -80,6 +80,18 @@ func (r *queryResolver) LastPosts(ctx context.Context, limit *int) ([]*model.Pos
 	return posts, nil
 }
 
+// Work is the resolver for the work field.
+func (r *queryResolver) Work(ctx context.Context, id string) (*model.Work, error) {
+	var work model.Work
+
+    err := r.DB.Where("id =?", id).First(&work).Error
+    if err!= nil {
+        return nil, err
+    }
+
+    return &work, nil
+}
+
 // Mutation returns MutationResolver implementation.
 func (r *Resolver) Mutation() MutationResolver { return &mutationResolver{r} }
 

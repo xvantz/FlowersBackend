@@ -26,6 +26,7 @@ type Query {
   posts: [Post!]!
   works: [Work!]!
   lastPosts(limit: Int = 2): [Post!]!
+  work(id: ID!): Work
 }
 
 input NewPost {
