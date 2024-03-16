@@ -23,15 +23,3 @@ go get ./...
 ```
 
 Проект может служить основой для создания бэкенда на Go с упрощенной взаимосвязью между PostgreSQL, GraphQL и GORM.
-
----
-
-*Примечание: Это описание создано автоматически и не является официальной документацией. Пожалуйста, дополните его подробностями о вашем проекте.*
-
-*Если у вас есть какие-либо дополнительные вопросы или требуется дополнительная информация, не стесняйтесь обращаться!*
-
-Источник: беседа с Bing, 16.03.2024
-(1) Creating new files - GitHub Docs. https://docs.github.com/en/repositories/working-with-files/managing-files/creating-new-files.
-(2) Creating new files - GitHub Docs. https://bing.com/search?q=create+a+file+for+GitHub+repository.
-(3) Creating a new repository - GitHub Docs. https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository.
-(4) Adding a file to a repository - GitHub Docs. https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository.
